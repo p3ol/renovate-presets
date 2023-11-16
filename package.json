@@ -1,0 +1,14 @@
+{
+  "name": "renovate-presets",
+  "version": "0.0.0",
+  "repository": "https://github.com/p3ol/renovate-presets.git",
+  "author": "Yannis Pagès <yannis@poool.fr>",
+  "private": true,
+  "engines": {
+    "node": "^20"
+  },
+  "devDependencies": {
+    "renovate": "37.60.3"
+  },
+  "packageManager": "yarn@3.7.0"
+}
