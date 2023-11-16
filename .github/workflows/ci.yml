@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+    tags: ['**']
+  pull_request:
+    branches: [master]
+
+jobs:
+  validate:
+    name: Validate Presets
+    runs-on: ubuntu-22.04
+    timeout-minutes: 2
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Validate Presets config
+        uses: suzuki-shunsuke/github-action-renovate-config-validator@v0.1.2
+        with:
+          config_file_path: "*.json"
