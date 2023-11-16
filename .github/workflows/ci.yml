@@ -8,15 +8,21 @@ on:
     branches: [master]
 
 jobs:
-  validate:
+  test:
     name: Validate Presets
     runs-on: ubuntu-22.04
     timeout-minutes: 2
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Validate Presets config
-        uses: suzuki-shunsuke/github-action-renovate-config-validator@v0.1.2
+      # This will cache npx packages until this file changes
+      - name: Setup npx cache
+        uses: actions/setup-node@v4
         with:
-          config_file_path: "*.json"
+          node-version: 20
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --immutable
+      - name: Validate Presets config
+        run: yarn test

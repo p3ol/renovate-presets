@@ -10,5 +10,8 @@
   "devDependencies": {
     "renovate": "37.60.3"
   },
+  "scripts": {
+    "test": "renovate-config-validator presets/*.json renovate.json"
+  },
   "packageManager": "yarn@3.7.0"
 }
