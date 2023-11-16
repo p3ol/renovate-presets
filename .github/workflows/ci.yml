@@ -25,4 +25,4 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
       - name: Validate Presets config
-        run: yarn test
+        run: yarn test --strict
