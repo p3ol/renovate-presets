@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+    tags: ['**']
+  pull_request:
+    branches: [master]
+
+jobs:
+  test:
+    name: Validate Presets
+    runs-on: ubuntu-22.04
+    timeout-minutes: 2
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      # This will cache npx packages until this file changes
+      - name: Setup npx cache
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --immutable
+      - name: Validate Presets config
+        run: yarn test --strict

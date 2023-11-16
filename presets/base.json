@@ -1,0 +1,53 @@
+{
+  "extends": [
+    "config:recommended"
+  ],
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 10,
+  "customManagers": [{
+    "customType": "regex",
+    "fileMatch": ["^Dockerfile"],
+    "matchStrings": ["FROM node:(?<currentValue>.*?)-bullseye-slim.*\\n"],
+    "depNameTemplate": "node",
+    "datasourceTemplate": "node",
+    "versioningTemplate": "node"
+  }],
+  "packageRules": [{
+    "matchUpdateTypes": ["patch", "pin"],
+    "matchDepTypes": ["devDependencies"],
+    "automerge": true
+  }, {
+    "matchUpdateTypes": ["patch", "pin"],
+    "matchManagers": ["github-actions"],
+    "automerge": true
+  }, {
+    "matchDepTypes": ["devDependencies"],
+    "matchManagers": ["npm"],
+    "prPriority": -1
+  }, {
+    "matchUpdateTypes": ["minor","major"],
+    "matchDepTypes": ["dependencies"],
+    "matchManagers": ["npm"],
+    "semanticCommitType": "feat"
+  }, {
+    "matchUpdateTypes": ["patch"],
+    "matchDepTypes": ["dependencies"],
+    "matchManagers": ["npm"],
+    "semanticCommitType": "fix"
+  }, {
+    "matchPackagePatterns": ["^@poool/eslint"],
+    "matchManagers": ["npm"],
+    "groupName": "poool eslint monorepo"
+  }, {
+    "matchPackagePatterns": ["^@junipero"],
+    "matchManagers": ["npm"],
+    "groupName": "poool junipero monorepo"
+  }, {
+    "matchPackagePatterns": ["^@oakjs"],
+    "matchManagers": ["npm"],
+    "groupName": "poool oak monorepo"
+  }, {
+    "matchManagers": ["dockerfile", "kubernetes", "github-actions"],
+    "assignees": ["yannispgs"]
+  }]
+}
