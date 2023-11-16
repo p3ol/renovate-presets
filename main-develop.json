@@ -1,0 +1,15 @@
+{  
+  "baseBranches": [
+    "main",
+    "develop"
+  ],
+  "packageRules" : [{
+    "matchUpdateTypes": ["major","minor"],
+    "matchBaseBranches": ["main"],
+    "enabled": false
+  }, {
+    "matchUpdateTypes": ["patch"],
+    "matchBaseBranches": ["develop"],
+    "enabled": false
+  }]
+}
