@@ -1,5 +1,5 @@
 {
   "extends": [
-    "local>p3ol/renovate-presets:base"
+    "local>p3ol/renovate-presets//presets/base"
   ]
 }
