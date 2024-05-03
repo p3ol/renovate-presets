@@ -13,5 +13,5 @@
     "test": "renovate-config-validator presets/*.json renovate.json",
     "release": "standard-version"
   },
-  "packageManager": "yarn@3.7.0"
+  "packageManager": "yarn@3.8.2"
 }
