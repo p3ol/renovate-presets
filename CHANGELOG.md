@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/p3ol/renovate-presets/compare/v1.0.0...v1.1.0) (2024-05-16)
+
+
+### Features
+
+* add Schedule time for all presets ([04965da](https://github.com/p3ol/renovate-presets/commit/04965da3323b6cfa62cb895bb2ed55de11b46f8d))
+* **deps:** bump yarn and renovate to latest ([3a54128](https://github.com/p3ol/renovate-presets/commit/3a541280edc71c2680a53e69a88b4654196905d3))
+
+
+### Bug Fixes
+
+* pass this repository Public ([65ee104](https://github.com/p3ol/renovate-presets/commit/65ee104302d40b0e2549005e40dd888d4c17d6aa))
+* **renovate:** update path to local preset ([f43203a](https://github.com/p3ol/renovate-presets/commit/f43203a869fa11bc1875274e249d874ad2344b8d))
+
 ## 1.0.0 (2023-11-16)
 
 
