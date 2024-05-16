@@ -4,6 +4,9 @@
     "develop"
   ],
   "packageRules" : [{
+    "matchBaseBranches": ["master"],
+    "schedule": ["after 8am and before 6pm every weekday"]
+  }, {
     "matchUpdateTypes": ["major","minor"],
     "matchBaseBranches": ["master"],
     "enabled": false
