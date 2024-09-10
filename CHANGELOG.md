@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/p3ol/renovate-presets/compare/v1.1.0...v1.2.0) (2024-09-10)
+
+
+### Features
+
+* bump renovate to v38 and remove deprecated elements ([46a7a31](https://github.com/p3ol/renovate-presets/commit/46a7a3108a3bac3a910ac3a25af1da25efe557ce))
+* bump yarn to v4.4.1 ([da9f7cc](https://github.com/p3ol/renovate-presets/commit/da9f7cc419150a4ace0b90e987aa7953e5bee892))
+
 ## [1.1.0](https://github.com/p3ol/renovate-presets/compare/v1.0.0...v1.1.0) (2024-05-16)
 
 
