@@ -6,7 +6,7 @@
     "node": "^20"
   },
   "devDependencies": {
-    "renovate": "37.367.0",
+    "renovate": "38.73.7",
     "standard-version": "9.5.0"
   },
   "scripts": {
