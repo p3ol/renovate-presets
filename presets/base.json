@@ -43,42 +43,46 @@
     "matchManagers": ["npm"],
     "semanticCommitType": "fix"
   }, {
-    "matchPackagePatterns": ["/^@?babel/"],
+    "matchPackageNames": ["//^@?babel//"],
     "matchManagers": ["npm"],
     "groupName": "babel monorepo",
     "schedule": ["before 9am on monday"]
   }, {
-    "matchPackagePatterns": ["/^@?jest/", "^types/jest"],
+    "matchPackageNames": ["//^@?jest//", "/^types/jest/"],
     "matchManagers": ["npm"],
     "groupName": "jest monorepo",
     "schedule": ["before 9am on monday"]
   }, {
-    "matchPackagePatterns": ["^webpack", "-webpack-plugin$", "@types/webpack"],
+    "matchPackageNames": [
+      "/^webpack/",
+      "/-webpack-plugin$/",
+      "/@types/webpack/"
+    ],
     "matchManagers": ["npm"],
     "groupName": "webpack monorepo",
     "schedule": ["before 9am on monday"]
   }, {
-    "matchPackagePatterns": ["^@storybook"],
+    "matchPackageNames": ["/^@storybook/"],
     "matchManagers": ["npm"],
     "groupName": "storybook monorepo",
     "schedule": ["before 9am on monday"]
   }, {
-    "matchPackagePatterns": ["^eslint", "^@typescript-eslint"],
+    "matchPackageNames": ["/^eslint/", "/^@typescript-eslint/"],
     "matchManagers": ["npm"],
     "groupName": "eslint monorepo",
     "schedule": ["before 9am on monday"]
   }, {
-    "matchPackagePatterns": ["^@poool/eslint"],
+    "matchPackageNames": ["/^@poool/eslint/"],
     "matchManagers": ["npm"],
     "groupName": "poool eslint monorepo",
     "schedule": ["before 9am on monday"]
   }, {
-    "matchPackagePatterns": ["^@junipero"],
+    "matchPackageNames": ["/^@junipero/"],
     "matchManagers": ["npm"],
     "groupName": "poool junipero monorepo",
     "schedule": ["before 9am on monday"]
   }, {
-    "matchPackagePatterns": ["^@oakjs"],
+    "matchPackageNames": ["/^@oakjs/"],
     "matchManagers": ["npm"],
     "groupName": "poool oak monorepo",
     "schedule": ["before 9am on monday and wednesday"]

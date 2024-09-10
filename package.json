@@ -6,12 +6,12 @@
     "node": "^20"
   },
   "devDependencies": {
-    "renovate": "37.367.0",
+    "renovate": "38.73.7",
     "standard-version": "9.5.0"
   },
   "scripts": {
     "test": "renovate-config-validator presets/*.json renovate.json",
     "release": "standard-version"
   },
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "yarn@4.4.1"
 }
