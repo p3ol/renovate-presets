@@ -8,7 +8,8 @@
     "schedule": ["before 9am every weekday"],
     "prConcurrentLimit": 10
   }, {
-    "matchUpdateTypes": ["patch", "pin"],
+    "matchUpdateTypes": ["patch", "pin", "digest"],
+    "matchManagers": ["npm"],
     "matchDepTypes": ["devDependencies"],
     "automerge": true
   }, {
