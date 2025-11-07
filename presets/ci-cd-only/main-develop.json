@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "p3ol/renovate-presets//presets/ci-cd-only/base"
+  ],
+  "baseBranchPatterns": [
+    "main",
+    "develop"
+  ],
+  "packageRules": [{
+    "matchFileNames": [".github/workflows/*.yml", "!.github/workflows/cd.yml"],
+    "matchBaseBranches": ["develop"],
+    "enabled": false
+  }, {
+    "matchFileNames": [".github/workflows/cd.yml"],
+    "matchBaseBranches": ["main"],
+    "enabled": false
+  }, {
+    "matchManagers": ["dockerfile", "helm-values", "helmv3"],
+    "matchBaseBranches": ["main"],
+    "enabled": false
+  }]
+}

@@ -1,47 +1,26 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "p3ol/renovate-presets//presets/common"
   ],
-  "prHourlyLimit": 0,
-  "prConcurrentLimit": 10,
-  "customManagers": [{
-    "customType": "regex",
-    "fileMatch": ["^Dockerfile"],
-    "matchStrings": ["FROM node:(?<currentValue>.*?)-bullseye-slim.*\\n"],
-    "depNameTemplate": "node",
-    "datasourceTemplate": "node",
-    "versioningTemplate": "node"
-  }],
   "packageRules": [{
     "matchManagers": ["npm"],
-    "schedule": ["before 1am on monday and wednesday"],
-    "timezone": "Europe/Paris"  
-  }, {
-    "matchManagers": ["github-actions"],
-    "schedule": ["before 1am on monday"],
-    "timezone": "Europe/Paris"  
+    "schedule": ["before 9am every weekday"],
+    "prConcurrentLimit": 10
   }, {
     "matchUpdateTypes": ["patch", "pin"],
     "matchDepTypes": ["devDependencies"],
     "automerge": true
   }, {
-    "matchUpdateTypes": ["patch", "pin"],
-    "matchManagers": ["github-actions"],
-    "automerge": true
-  }, {
     "matchDepTypes": ["devDependencies"],
     "matchManagers": ["npm"],
-    "prPriority": -1
+    "semanticCommitType": "chore",
+    "prPriority": 0
   }, {
-    "matchUpdateTypes": ["minor","major"],
     "matchDepTypes": ["dependencies"],
     "matchManagers": ["npm"],
-    "semanticCommitType": "feat"
-  }, {
-    "matchUpdateTypes": ["patch"],
-    "matchDepTypes": ["dependencies"],
-    "matchManagers": ["npm"],
-    "semanticCommitType": "fix"
+    "semanticCommitType": "fix",
+    "prPriority": 10
   }, {
     "matchPackageNames": ["//^@?babel//"],
     "matchManagers": ["npm"],
@@ -84,10 +63,6 @@
   }, {
     "matchPackageNames": ["/^@oakjs/"],
     "matchManagers": ["npm"],
-    "groupName": "poool oak monorepo",
-    "schedule": ["before 9am on monday and wednesday"]
-  }, {
-    "matchManagers": ["dockerfile", "kubernetes", "github-actions"],
-    "assignees": ["yannispgs"]
+    "groupName": "poool oak monorepo"
   }]
 }

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "p3ol/renovate-presets//presets/common"
+  ],
+  "enabledManagers": [
+    "dockerfile",
+    "helm-values",
+    "helmv3",
+    "github-actions"
+  ]
+}

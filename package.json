@@ -11,7 +11,7 @@
     "standard-version": "9.5.0"
   },
   "scripts": {
-    "test": "renovate-config-validator presets/*.json renovate.json",
+    "test": "renovate-config-validator presets/**/*.json renovate.json",
     "release": "standard-version"
   },
   "packageManager": "yarn@4.4.1"

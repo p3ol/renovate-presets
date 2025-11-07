@@ -1,0 +1,36 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "timezone": "Europe/Paris",
+  "schedule": ["before 1am on monday"],
+  "prHourlyLimit": 0,
+  "customManagers": [{
+    "customType": "regex",
+    "managerFilePatterns": ["^Dockerfile"],
+    "matchStrings": [
+      "FROM (?<depName>[\\w\\-/]+):(?<currentValue>\\d+\\.\\d+\\.\\d+)-bullseye-slim"
+    ],
+    "datasourceTemplate": "docker",
+    "versioningTemplate": "semver"
+  }],
+  "packageRules": [{
+    "matchManagers": ["github-actions", "dockerfile", "helm-values", "helmv3"],
+    "assignees": ["yannispgs"],
+    "prConcurrentLimit": 0,
+    "description": "Assign CI/CD updates to Yannis. Not many CI/CD deps, so no need to limit PRs."
+  }, {
+    "matchManagers": ["dockerfile", "helm-values", "helmv3"],
+    "prPriority": 20
+  }, {
+    "matchManagers": ["github-actions"],
+    "matchFileNames": [".github/workflows/cd.yml"],
+    "prPriority": 10,
+    "description": "Ensure CD Github Actions are prioritized over CI ones"
+  }, {
+    "matchManagers": ["github-actions"],
+    "matchFileNames": ["!.github/workflows/cd.yml"],
+    "prPriority": 0
+  }]
+}
