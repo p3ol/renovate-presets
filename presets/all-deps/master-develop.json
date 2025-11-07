@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "p3ol/renovate-presets//presets/all-deps/base",
+    "p3ol/renovate-presets//presets/ci-cd-only/master-develop"
+  ],
+  "baseBranchPatterns": [
+    "master",
+    "develop"
+  ],
+  "packageRules" : [{
+    "matchBaseBranches": ["master"],
+    "schedule": ["after 9am and before 6pm every weekday"]
+  }, {
+    "matchUpdateTypes": ["major","minor"],
+    "matchBaseBranches": ["master"],
+    "enabled": false
+  }, {
+    "matchUpdateTypes": ["patch", "pin"],
+    "matchBaseBranches": ["develop"],
+    "enabled": false
+  }]
+}

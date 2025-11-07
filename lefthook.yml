@@ -1,0 +1,13 @@
+pre-commit:
+  commands:
+    install:
+      glob:
+        - "package.json"
+        - "yarn.lock"
+      run: yarn install --immutable
+    test:
+      run: yarn test
+      glob:
+        - "presets/*.json"
+        - "renovate.json"
+    
