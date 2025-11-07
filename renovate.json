@@ -1,5 +1,12 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "local>p3ol/renovate-presets//presets/base"
-  ]
+    "p3ol/renovate-presets//presets/all-deps/base"
+  ],
+  "packageRules": [{
+    "matchManagers": ["npm"],
+    "matchDepTypes": ["devDependencies", "packageManager"],
+    "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+    "automerge": true
+  }]
 }
