@@ -22,15 +22,18 @@
     "description": "Assign CI/CD updates to Yannis. Not many CI/CD deps, so no need to limit PRs."
   }, {
     "matchManagers": ["dockerfile", "helm-values", "helmv3"],
+    "semanticCommitType": "fix",
     "prPriority": 20
   }, {
     "matchManagers": ["github-actions"],
     "matchFileNames": [".github/workflows/cd.yml"],
+    "semanticCommitType": "chore",
     "prPriority": 10,
     "description": "Ensure CD Github Actions are prioritized over CI ones"
   }, {
     "matchManagers": ["github-actions"],
     "matchFileNames": ["!.github/workflows/cd.yml"],
+    "semanticCommitType": "chore",
     "prPriority": 0
   }]
 }
