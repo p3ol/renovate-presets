@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/p3ol/renovate-presets/compare/v1.2.0...v2.0.0) (2025-11-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* split presets to npm and ci cd deps
+
+### Bug Fixes
+
+* **deps:** bump all deps to latest versions ([4d17172](https://github.com/p3ol/renovate-presets/commit/4d1717225544a8500ab78ec725e5fd125b8f18d8))
+* **deps:** bump renovate to 42.0.0 ([4baac7e](https://github.com/p3ol/renovate-presets/commit/4baac7e7139c1b8492b14ddc8343cc54bffed5b9))
+
+
+* split presets to npm and ci cd deps ([80d153c](https://github.com/p3ol/renovate-presets/commit/80d153c34d98a782db438ded8bfc933522eb2d6f))
+
 ## [1.2.0](https://github.com/p3ol/renovate-presets/compare/v1.1.0...v1.2.0) (2024-09-10)
 
 
