@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.3](https://github.com/p3ol/renovate-presets/compare/v2.0.2...v2.0.3) (2025-11-13)
+
+
+### Bug Fixes
+
+* **ci-cd-only:** force node-related updates on develop ([090a313](https://github.com/p3ol/renovate-presets/commit/090a313aae3f68ec4158a789eaad1098a03bffb7))
+
 ### [2.0.2](https://github.com/p3ol/renovate-presets/compare/v2.0.1...v2.0.2) (2025-11-07)
 
 
