@@ -19,5 +19,15 @@
     "matchManagers": ["dockerfile", "helm-values", "helmv3"],
     "matchBaseBranches": ["main"],
     "enabled": false
+  }, {
+    "matchDepNames": ["node"],
+    "matchBaseBranches": ["main"],
+    "enabled": false,
+    "description": "Disable all node-related updates on main branch"
+  }, {
+    "matchDepNames": ["node"],
+    "matchBaseBranches": ["develop"],
+    "enabled": true,
+    "description": "Push all node-related updates on develop branch"
   }]
 }
