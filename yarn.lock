@@ -7827,14 +7827,14 @@ __metadata:
   resolution: "renovate-presets@workspace:."
   dependencies:
     lefthook: "npm:2.0.3"
-    renovate: "npm:42.7.0"
+    renovate: "npm:42.8.1"
     standard-version: "npm:9.5.0"
   languageName: unknown
   linkType: soft
 
-"renovate@npm:42.7.0":
-  version: 42.7.0
-  resolution: "renovate@npm:42.7.0"
+"renovate@npm:42.8.1":
+  version: 42.8.1
+  resolution: "renovate@npm:42.8.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.922.0"
     "@aws-sdk/client-ec2": "npm:3.922.0"
@@ -7967,7 +7967,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/f8924ef12137fa24d6b0a750c1793e10c733ec5a162b2a76361a38bcb962ae29a633a8e828f214c9c68f7764650804b981f3893a501df5945d90893e08b9e1ad
+  checksum: 10/969971f223ec17cc078ca83cd09fe55f943c583c318ce5348d08d46eac02176eae9da530448e715de7ebfd178781265bf4d44efa8ec92f66469b02d5cc04b70f
   languageName: node
   linkType: hard
 
