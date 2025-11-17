@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.4](https://github.com/p3ol/renovate-presets/compare/v2.0.3...v2.0.4) (2025-11-17)
+
+
+### Bug Fixes
+
+* **common:** group ci and ci deps together ([fd3257c](https://github.com/p3ol/renovate-presets/commit/fd3257ca1607186552414848c694bfee57b9bbf1))
+
 ### [2.0.3](https://github.com/p3ol/renovate-presets/compare/v2.0.2...v2.0.3) (2025-11-13)
 
 
