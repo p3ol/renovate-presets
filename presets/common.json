@@ -29,11 +29,15 @@
     "matchFileNames": [".github/workflows/cd.yml"],
     "semanticCommitType": "chore",
     "prPriority": 10,
-    "description": "Ensure CD Github Actions are prioritized over CI ones"
+    "description": "Ensure CD Github Actions are prioritized over CI ones",
+    "groupName": "CD-related dependencies updates",
+    "groupSlug": "cd-deps"
   }, {
     "matchManagers": ["github-actions"],
     "matchFileNames": ["!.github/workflows/cd.yml"],
     "semanticCommitType": "chore",
+    "groupName": "CI-related dependencies updates",
+    "groupSlug": "ci-deps",
     "prPriority": 0
   }]
 }
