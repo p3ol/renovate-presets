@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "lefthook": "2.0.4",
-    "renovate": "42.10.5",
+    "renovate": "42.11.0",
     "standard-version": "9.5.0"
   },
   "scripts": {
