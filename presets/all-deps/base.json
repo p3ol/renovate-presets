@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "p3ol/renovate-presets//presets/common"
+    "p3ol/renovate-presets//presets/common/base"
   ],
   "packageRules": [{
     "matchManagers": ["npm"],
