@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.6](https://github.com/p3ol/renovate-presets/compare/v2.0.5...v2.0.6) (2025-11-21)
+
+
+### Bug Fixes
+
+* **all-deps:** fix extend error on common preset ([e6df024](https://github.com/p3ol/renovate-presets/commit/e6df024c36369bb96aedfbc46687fbac300a2c75))
+
 ## [2.0.5](https://github.com/p3ol/renovate-presets/compare/v2.0.4...v2.0.5) (2025-11-21)
 
 
