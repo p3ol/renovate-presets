@@ -4,7 +4,6 @@
     "config:recommended"
   ],
   "timezone": "Europe/Paris",
-  "schedule": ["before 12am on monday"],
   "prHourlyLimit": 0,
   "customManagers": [{
     "customType": "regex",
