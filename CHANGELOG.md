@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.8](https://github.com/p3ol/renovate-presets/compare/v2.0.7...v2.0.8) (2025-12-02)
+
+
+### Bug Fixes
+
+* **common:** remove default schedule ([a72db92](https://github.com/p3ol/renovate-presets/commit/a72db921a3fbae8c8d86676fcf5bf247dde9b2dc))
+
 ## [2.0.7](https://github.com/p3ol/renovate-presets/compare/v2.0.6...v2.0.7) (2025-11-24)
 
 
