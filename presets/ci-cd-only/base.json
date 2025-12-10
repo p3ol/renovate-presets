@@ -3,10 +3,14 @@
   "extends": [
     "p3ol/renovate-presets//presets/common/base"
   ],
-  "enabledManagers": [
-    "dockerfile",
-    "helm-values",
-    "helmv3",
-    "github-actions"
-  ]
+  "packageRules": [{
+    // Do not use global enabledManagers as it cannot be reverted by packageRules
+    "matchManagers": [
+      "!dockerfile",
+      "!helm-values",
+      "!helmv3",
+      "!github-actions"
+    ],
+    "enabled": false
+  }]
 }
