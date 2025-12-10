@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 2
     steps:
       - name: Checkout code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       # This will cache npx packages until this file changes
       - name: Setup npx cache
         uses: actions/setup-node@v6
