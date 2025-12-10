@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.13](https://github.com/p3ol/renovate-presets/compare/v2.0.12...v2.0.13) (2025-12-10)
+
+
+### Bug Fixes
+
+* **common:** exclude node updates from ci-cd groups ([fcc9c47](https://github.com/p3ol/renovate-presets/commit/fcc9c471c6488b920396b1b1498786bc23840948))
+* **common:** reorder node and ci-cd groups ([b204254](https://github.com/p3ol/renovate-presets/commit/b204254b86c34339d70b925fdc6e1b959ce4e735))
+
 ## [2.0.12](https://github.com/p3ol/renovate-presets/compare/v2.0.11...v2.0.12) (2025-12-10)
 
 
