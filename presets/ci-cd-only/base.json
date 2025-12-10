@@ -12,5 +12,8 @@
       "!github-actions"
     ],
     "enabled": false
+  }, {
+    "matchDepNames": ["node"],
+    "enabled": true
   }]
 }
