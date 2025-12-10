@@ -24,6 +24,12 @@
     "semanticCommitType": "fix",
     "prPriority": 20
   }, {
+    "groupName": "bump node-related updates",
+    "description": "Regroup node-related updates",
+    "matchDepNames": ["node"], // CI + CD
+    "matchPackageNames": ["node"], // package.json 'engines' field]
+    "prPriority": 10
+  }, {
     "matchManagers": ["github-actions"],
     "matchFileNames": [".github/workflows/cd.yml"],
     "semanticCommitType": "chore",
@@ -38,12 +44,5 @@
     "groupName": "CI-related dependencies updates",
     "groupSlug": "ci-deps",
     "prPriority": 0
-  }, {
-    "groupName": "bump node-related updates",
-    "groupSlug": "node-deps",
-    "description": "Regroup node-related updates",
-    "matchDepNames": ["node"], // CI + CD
-    "matchPackageNames": ["node"], // package.json 'engines' field]
-    "prPriority": 10
   }]
 }

@@ -26,7 +26,6 @@
     "matchBaseBranches": ["master"],
     "enabled": false
   }, {
-    "groupName": "bump all Node-related updates",
     "description": "Push all node-related updates on develop branch",
     "matchDepNames": ["node"], // CI + CD
     "matchPackageNames": ["node"], // package.json 'engines' field
