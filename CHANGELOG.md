@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.10](https://github.com/p3ol/renovate-presets/compare/v2.0.9...v2.0.10) (2025-12-10)
+
+
+### Bug Fixes
+
+* **common:** regroup node related deps in base preset ([e7964cf](https://github.com/p3ol/renovate-presets/commit/e7964cfc320ac7df06a704dccfa1bdd871645136))
+
 ## [2.0.9](https://github.com/p3ol/renovate-presets/compare/v2.0.8...v2.0.9) (2025-12-10)
 
 
