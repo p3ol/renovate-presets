@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.12](https://github.com/p3ol/renovate-presets/compare/v2.0.11...v2.0.12) (2025-12-10)
+
+
+### Bug Fixes
+
+* **common:** move node group first ([6bd2e5d](https://github.com/p3ol/renovate-presets/commit/6bd2e5da364d0e87a3e8d087f7259c219fcbbe51))
+
 ## [2.0.11](https://github.com/p3ol/renovate-presets/compare/v2.0.10...v2.0.11) (2025-12-10)
 
 
