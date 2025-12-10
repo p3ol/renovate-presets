@@ -8,21 +8,23 @@
     "develop"
   ],
   "packageRules": [{
+    "description": "Disable non-CD Github Actions updates on develop branch",
     "matchFileNames": [".github/workflows/*.yml", "!.github/workflows/cd.yml"],
     "matchBaseBranches": ["develop"],
     "enabled": false
   }, {
+    "description": "Disable CD Github Actions updates on main branch",
     "matchFileNames": [".github/workflows/cd.yml"],
     "matchBaseBranches": ["main"],
     "enabled": false
   }, {
+    "description": "Disable deployment-related updates on main branch",
     "matchManagers": ["dockerfile", "helm-values", "helmv3"],
     "matchBaseBranches": ["main"],
     "enabled": false
   }, {
     "description": "Disable all node-related updates on main branch",
-    "matchDepNames": ["node"], // CI + CD
-    "matchPackageNames": ["node"], // package.json 'engines' field
+    "matchDepNames": ["node"],
     "matchBaseBranches": ["main"],
     "enabled": false
   }]
