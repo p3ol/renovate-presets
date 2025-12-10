@@ -44,6 +44,7 @@
     "groupName": "node-related updates",
     "description": "Regroup node-related updates",
     "matchDepNames": ["node"],
-    "prPriority": 10
+    "semanticCommitType": "fix",
+    "prPriority": 15
   }]
 }
