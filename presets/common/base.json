@@ -38,5 +38,10 @@
     "groupName": "CI-related dependencies updates",
     "groupSlug": "ci-deps",
     "prPriority": 0
+  }, {
+    "groupName": "bump all node-related updates",
+    "description": "Regroup all node-related updates",
+    "matchDepNames": ["node"], // CI + CD
+    "matchPackageNames": ["node"] // package.json 'engines' field]
   }]
 }
