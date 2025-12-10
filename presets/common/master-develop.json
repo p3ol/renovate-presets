@@ -25,11 +25,5 @@
     "matchPackageNames": ["node"], // package.json 'engines' field
     "matchBaseBranches": ["master"],
     "enabled": false
-  }, {
-    "description": "Push all node-related updates on develop branch",
-    "matchDepNames": ["node"], // CI + CD
-    "matchPackageNames": ["node"], // package.json 'engines' field
-    "matchBaseBranches": ["develop"],
-    "enabled": true
   }]
 }
