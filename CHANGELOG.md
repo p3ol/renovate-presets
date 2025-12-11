@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.15](https://github.com/p3ol/renovate-presets/compare/v2.0.14...v2.0.15) (2025-12-10)
+
+
+### Bug Fixes
+
+* **ci-cd-only:** allow node updates in cd ci only preset ([7861935](https://github.com/p3ol/renovate-presets/commit/7861935f2e221aa9336b4656d2d2d46c8387326c))
+* **ci-cd-only:** move enabledmanagers to packagerules ([4d13909](https://github.com/p3ol/renovate-presets/commit/4d13909b98a24adea0139ea61184ac36d051234e))
+
 ## [2.0.14](https://github.com/p3ol/renovate-presets/compare/v2.0.13...v2.0.14) (2025-12-10)
 
 
