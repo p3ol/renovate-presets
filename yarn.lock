@@ -1816,15 +1816,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/detect-tools@npm:1.2.4":
-  version: 1.2.4
-  resolution: "@renovatebot/detect-tools@npm:1.2.4"
+"@renovatebot/detect-tools@npm:1.2.5":
+  version: 1.2.5
+  resolution: "@renovatebot/detect-tools@npm:1.2.5"
   dependencies:
     fs-extra: "npm:^11.3.2"
-    toml-eslint-parser: "npm:^0.10.0"
+    toml-eslint-parser: "npm:^0.10.1"
     upath: "npm:^2.0.1"
     zod: "npm:^3.25.76"
-  checksum: 10/92ecfa778e23a8a376170f79f190572aa5be9fafbba76de9cd84271ed6e1975d92c71b364fbefb770fd568a5cbb2b1767a307bab9d63301360a9574c2af0dea4
+  checksum: 10/63c621524d4e97ab5df710c6e14ab66df8ea70a4759fd79a5da09682bb2c9339fdcec1bb6050539c14e7519c073b873e2fc050d6dd496fbacbc55e9f2fc43fff
   languageName: node
   linkType: hard
 
@@ -1858,10 +1858,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/pgp@npm:1.2.1":
-  version: 1.2.1
-  resolution: "@renovatebot/pgp@npm:1.2.1"
-  checksum: 10/c840fcf9fc3a9331320b03a9ed9b3ef35e0d574e0c94b6caf56aa9553b056e0ba41ee323db887c274ad11f2a6e4dbe92839d1f039d40c03ede06cbf7f00db294
+"@renovatebot/pgp@npm:1.2.2":
+  version: 1.2.2
+  resolution: "@renovatebot/pgp@npm:1.2.2"
+  checksum: 10/0acb9abf05120d7a3c7a097d682621d50fd8bca13cd573a3144a17ee47bc7018c382b447d40b874c22828490996ae33ac884791ac4c8ec4d73c95b5280737ced
   languageName: node
   linkType: hard
 
@@ -7890,14 +7890,14 @@ __metadata:
   resolution: "renovate-presets@workspace:."
   dependencies:
     lefthook: "npm:2.0.11"
-    renovate: "npm:42.39.4"
+    renovate: "npm:42.52.8"
     standard-version: "npm:9.5.0"
   languageName: unknown
   linkType: soft
 
-"renovate@npm:42.39.4":
-  version: 42.39.4
-  resolution: "renovate@npm:42.39.4"
+"renovate@npm:42.52.8":
+  version: 42.52.8
+  resolution: "renovate@npm:42.52.8"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.940.0"
     "@aws-sdk/client-ec2": "npm:3.940.0"
@@ -7926,10 +7926,10 @@ __metadata:
     "@opentelemetry/semantic-conventions": "npm:1.38.0"
     "@pnpm/parse-overrides": "npm:1001.0.3"
     "@qnighy/marshal": "npm:0.1.3"
-    "@renovatebot/detect-tools": "npm:1.2.4"
+    "@renovatebot/detect-tools": "npm:1.2.5"
     "@renovatebot/osv-offline": "npm:2.0.0"
     "@renovatebot/pep440": "npm:4.2.1"
-    "@renovatebot/pgp": "npm:1.2.1"
+    "@renovatebot/pgp": "npm:1.2.2"
     "@renovatebot/ruby-semver": "npm:4.1.2"
     "@sindresorhus/is": "npm:7.1.1"
     "@yarnpkg/core": "npm:4.5.0"
@@ -8013,7 +8013,7 @@ __metadata:
     slugify: "npm:1.6.6"
     source-map-support: "npm:0.5.21"
     strip-json-comments: "npm:5.0.3"
-    toml-eslint-parser: "npm:0.10.0"
+    toml-eslint-parser: "npm:0.10.1"
     tslib: "npm:2.8.1"
     upath: "npm:2.0.1"
     url-join: "npm:5.0.0"
@@ -8031,7 +8031,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/b71db69b756f9033c8063246386ff2a8dc4f49cdf85fdaa66de10f8905887dd94a4c4987b59cc6a1dbb87b56a4050573fed991fad7f1fc6a12ecb416c128fe5c
+  checksum: 10/62f5477feab7b4bb238f5e8352cda124e71e1044d9ca8f9f82b20f5192b1ac6c6ab9ec5c8c1f749b35ffa8f777d314c315c407c6d960aa7eae9a9736ab02d0a6
   languageName: node
   linkType: hard
 
@@ -8854,12 +8854,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"toml-eslint-parser@npm:0.10.0, toml-eslint-parser@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "toml-eslint-parser@npm:0.10.0"
+"toml-eslint-parser@npm:0.10.1, toml-eslint-parser@npm:^0.10.1":
+  version: 0.10.1
+  resolution: "toml-eslint-parser@npm:0.10.1"
   dependencies:
     eslint-visitor-keys: "npm:^3.0.0"
-  checksum: 10/a2e161e2e9724ffe7736b3348cdef23f813ed729c27bfabc0d6c96348adaef97d90e1f463b4be2b691c138662807eede2551bcf823e8d09e2396d19e0558fb80
+  checksum: 10/b8716ff79ed03fcc843c8392723c32b3847ce3dfe4950abdba31faf3419d94068cd27409b6d91df797d6b925b583bcd003c83f331e611357e1c5861624038a51
   languageName: node
   linkType: hard
 
