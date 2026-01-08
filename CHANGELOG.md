@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/p3ol/renovate-presets/compare/v2.1.2...v2.2.0) (2026-01-08)
+
+
+### Features
+
+* **cert-manager:** split preset depending on base branch ([cd1a07d](https://github.com/p3ol/renovate-presets/commit/cd1a07dd1b48b7d8d928f7c2e9c80b513ad88e5b))
+
 ## [2.1.2](https://github.com/p3ol/renovate-presets/compare/v2.1.1...v2.1.2) (2026-01-08)
 
 
