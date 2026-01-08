@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.1](https://github.com/p3ol/renovate-presets/compare/v2.2.0...v2.2.1) (2026-01-08)
+
+
+### Bug Fixes
+
+* **ci-cd-only:** fix missing conditional not for managers ([464d99c](https://github.com/p3ol/renovate-presets/commit/464d99cc74160f60840c664b7593ace9e07e1697))
+
 ## [2.2.0](https://github.com/p3ol/renovate-presets/compare/v2.1.2...v2.2.0) (2026-01-08)
 
 
