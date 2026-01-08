@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.1](https://github.com/p3ol/renovate-presets/compare/v2.1.0...v2.1.1) (2026-01-08)
+
+
+### Bug Fixes
+
+* **cert-manager:** make s optional for custom managers ([7d1f4d7](https://github.com/p3ol/renovate-presets/commit/7d1f4d7c4cc0e5a6210201711f01ad6c94221085))
+
 ## [2.1.0](https://github.com/p3ol/renovate-presets/compare/v2.0.15...v2.1.0) (2026-01-08)
 
 
