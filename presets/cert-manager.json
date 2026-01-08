@@ -1,0 +1,33 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "customManagers": [{
+    "customType": "regex",
+    "managerFilePatterns": ["scripts/*cert-manager*"],
+    "matchStrings": [
+      "cert_manager_version=\"(?<currentValue>v[^\"]+)\""
+    ],
+    "depNameTemplate": "cert-manager",
+    "datasourceTemplate": "helm",
+    "registryUrlTemplate": "https://quay.io/jetstack/charts",
+    "versioningTemplate": "semver"
+  }, {
+    "customType": "regex",
+    "managerFilePatterns": ["scripts/*cert-manager*"],
+    "matchStrings": [
+      "origin_ca_issuer_version=\"(?<currentValue>v[^\"]+)\""
+    ],
+    "depNameTemplate": "cloudflare/origin-ca-issuer",
+    "datasourceTemplate": "github-releases",
+    "versioningTemplate": "semver"
+  }, {
+    "customType": "regex",
+    "managerFilePatterns": ["scripts/*cert-manager*"],
+    "matchStrings": [
+      "origin_ca_issuer_chart_version=\"(?<currentValue>[^\"]+)\""
+    ],
+    "depNameTemplate": "origin-ca-issuer",
+    "datasourceTemplate": "helm",
+    "registryUrlTemplate": "https://ghcr.io/cloudflare/origin-ca-issuer-charts",
+    "versioningTemplate": "semver"
+  }]
+}
