@@ -7,7 +7,7 @@
       "cert_manager_version=\"(?<currentValue>v[^\"]+)\""
     ],
     "depNameTemplate": "cert-manager",
-    "datasourceTemplate": "helm",
+    "datasourceTemplate": "docker",
     "registryUrlTemplate": "https://quay.io/jetstack/charts",
     "versioningTemplate": "semver"
   }, {
