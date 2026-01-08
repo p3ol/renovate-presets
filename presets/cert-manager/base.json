@@ -8,7 +8,7 @@
     ],
     "depNameTemplate": "cert-manager",
     "datasourceTemplate": "docker",
-    "registryUrlTemplate": "oci://quay.io/jetstack/charts",
+    "registryUrlTemplate": "quay.io/jetstack/charts",
     "versioningTemplate": "semver"
   }, {
     "customType": "regex",
@@ -27,7 +27,7 @@
     ],
     "depNameTemplate": "origin-ca-issuer",
     "datasourceTemplate": "docker",
-    "registryUrlTemplate": "oci://ghcr.io/cloudflare/origin-ca-issuer-charts",
+    "registryUrlTemplate": "ghcr.io/cloudflare/origin-ca-issuer-charts",
     "versioningTemplate": "semver"
   }],
   "packageRules": [{
