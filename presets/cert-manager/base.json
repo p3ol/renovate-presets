@@ -26,7 +26,7 @@
       "origin_ca_issuer_chart_version=\"(?<currentValue>[^\"]+)\""
     ],
     "depNameTemplate": "origin-ca-issuer",
-    "datasourceTemplate": "helm",
+    "datasourceTemplate": "docker",
     "registryUrlTemplate": "oci://ghcr.io/cloudflare/origin-ca-issuer-charts",
     "versioningTemplate": "semver"
   }],
