@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.2](https://github.com/p3ol/renovate-presets/compare/v2.1.1...v2.1.2) (2026-01-08)
+
+
+### Bug Fixes
+
+* **cert-manager:** enable and regroup related deps ([e12d9ae](https://github.com/p3ol/renovate-presets/commit/e12d9aea43cb5165e1c8c10766fe349bc0205a7a))
+
 ## [2.1.1](https://github.com/p3ol/renovate-presets/compare/v2.1.0...v2.1.1) (2026-01-08)
 
 
