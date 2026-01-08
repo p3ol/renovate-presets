@@ -9,7 +9,9 @@
       "!dockerfile",
       "!helm-values",
       "!helmv3",
-      "!github-actions"
+      "!github-actions",
+      "custom.regex",
+      "custom.jsonata"
     ],
     "enabled": false
   }, {
