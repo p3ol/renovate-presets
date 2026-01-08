@@ -7,8 +7,8 @@
       "cert_manager_version=\"(?<currentValue>v[^\"]+)\""
     ],
     "depNameTemplate": "cert-manager",
-    "datasourceTemplate": "docker",
-    "registryUrlTemplate": "quay.io/jetstack/charts",
+    "datasourceTemplate": "helm",
+    "registryUrlTemplate": "https://quay.io/jetstack/charts",
     "versioningTemplate": "semver"
   }, {
     "customType": "regex",
@@ -27,7 +27,7 @@
     ],
     "depNameTemplate": "origin-ca-issuer",
     "datasourceTemplate": "docker",
-    "registryUrlTemplate": "ghcr.io/cloudflare/origin-ca-issuer-charts",
+    "registryUrlTemplate": "https://ghcr.io/cloudflare/origin-ca-issuer-charts",
     "versioningTemplate": "semver"
   }],
   "packageRules": [{
