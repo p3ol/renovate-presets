@@ -37,7 +37,7 @@
       "origin-ca-issuer"
     ],
     "semanticCommitType": "chore",
-    "groupName": "cert-manager and origin-ca-issuer updates",
+    "groupName": "Cert Manager-related dependencies updates",
     "groupSlug": "cert-manager-deps",
     "assignees": ["yannispgs"],
     "enabled": true

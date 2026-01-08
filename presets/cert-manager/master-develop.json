@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "p3ol/renovate-presets//presets/cert-manager/base"
+  ],
+  "baseBranchPatterns": [
+    "master",
+    "develop"
+  ],
+  "packageRules": [{
+    "matchDepNames": [
+      "cert-manager",
+      "cloudflare/origin-ca-issuer",
+      "origin-ca-issuer"
+    ],
+    "matchBaseBranches": ["master"],
+    "enabled": false
+  }]
+}
