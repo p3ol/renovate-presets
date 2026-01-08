@@ -6,9 +6,9 @@
     "matchStrings": [
       "cert_manager_version=\"(?<currentValue>v[^\"]+)\""
     ],
-    "depNameTemplate": "jetstack/charts/cert-manager",
+    "depNameTemplate": "cert-manager",
     "datasourceTemplate": "helm",
-    "registryUrlTemplate": "https://quay.io",
+    "registryUrlTemplate": "oci://quay.io/jetstack/charts",
     "versioningTemplate": "semver"
   }, {
     "customType": "regex",
@@ -25,9 +25,9 @@
     "matchStrings": [
       "origin_ca_issuer_chart_version=\"(?<currentValue>[^\"]+)\""
     ],
-    "depNameTemplate": "cloudflare/origin-ca-issuer-charts/origin-ca-issuer",
+    "depNameTemplate": "origin-ca-issuer",
     "datasourceTemplate": "helm",
-    "registryUrlTemplate": "https://ghcr.io",
+    "registryUrlTemplate": "oci://ghcr.io/cloudflare/origin-ca-issuer-charts",
     "versioningTemplate": "semver"
   }],
   "packageRules": [{
