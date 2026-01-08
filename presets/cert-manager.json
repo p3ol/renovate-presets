@@ -29,5 +29,17 @@
     "datasourceTemplate": "helm",
     "registryUrlTemplate": "https://ghcr.io/cloudflare/origin-ca-issuer-charts",
     "versioningTemplate": "semver"
+  }],
+  "packageRules": [{
+    "matchDepNames": [
+      "cert-manager",
+      "cloudflare/origin-ca-issuer",
+      "origin-ca-issuer"
+    ],
+    "semanticCommitType": "chore",
+    "groupName": "cert-manager and origin-ca-issuer updates",
+    "groupSlug": "cert-manager-deps",
+    "assignees": ["yannispgs"],
+    "enabled": true
   }]
 }
