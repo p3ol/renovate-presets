@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.3](https://github.com/p3ol/renovate-presets/compare/v2.2.2...v2.2.3) (2026-01-08)
+
+
+### Bug Fixes
+
+* **cert-manager:** find the good syntax for both managers ([d1eb3bf](https://github.com/p3ol/renovate-presets/commit/d1eb3bf6cb6584bf2b8add7bc76c387901e3168c))
+* **cert-manager:** fix registryUrl errors ([512f645](https://github.com/p3ol/renovate-presets/commit/512f64581848dd73d3eeaf29ab2136922fe5b5b3))
+* **cert-manager:** remove oci prefix for registry urls ([0ce27fe](https://github.com/p3ol/renovate-presets/commit/0ce27fee3d3abfcbd3da250480f343be2eadc10a))
+* **cert-manager:** try to find the right syntax ([f662864](https://github.com/p3ol/renovate-presets/commit/f662864b3c2f1ce1aad98f333acc7d9f7c3219c7))
+* **cert-manager:** use docker datasource for cert manager ([8e84236](https://github.com/p3ol/renovate-presets/commit/8e84236d8efe7939c6e6eacdba287a123329540d))
+* **cert-manager:** use docker datasource for cf origin ca issuer ([b11ca2a](https://github.com/p3ol/renovate-presets/commit/b11ca2a8d18a34675bffa2ba11ae4c1601fa973e))
+
 ## [2.2.2](https://github.com/p3ol/renovate-presets/compare/v2.2.1...v2.2.2) (2026-01-08)
 
 
