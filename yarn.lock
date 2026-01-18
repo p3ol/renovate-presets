@@ -5729,90 +5729,90 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lefthook-darwin-arm64@npm:2.0.13":
-  version: 2.0.13
-  resolution: "lefthook-darwin-arm64@npm:2.0.13"
+"lefthook-darwin-arm64@npm:2.0.15":
+  version: 2.0.15
+  resolution: "lefthook-darwin-arm64@npm:2.0.15"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-darwin-x64@npm:2.0.13":
-  version: 2.0.13
-  resolution: "lefthook-darwin-x64@npm:2.0.13"
+"lefthook-darwin-x64@npm:2.0.15":
+  version: 2.0.15
+  resolution: "lefthook-darwin-x64@npm:2.0.15"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"lefthook-freebsd-arm64@npm:2.0.13":
-  version: 2.0.13
-  resolution: "lefthook-freebsd-arm64@npm:2.0.13"
+"lefthook-freebsd-arm64@npm:2.0.15":
+  version: 2.0.15
+  resolution: "lefthook-freebsd-arm64@npm:2.0.15"
   conditions: os=freebsd & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-freebsd-x64@npm:2.0.13":
-  version: 2.0.13
-  resolution: "lefthook-freebsd-x64@npm:2.0.13"
+"lefthook-freebsd-x64@npm:2.0.15":
+  version: 2.0.15
+  resolution: "lefthook-freebsd-x64@npm:2.0.15"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"lefthook-linux-arm64@npm:2.0.13":
-  version: 2.0.13
-  resolution: "lefthook-linux-arm64@npm:2.0.13"
+"lefthook-linux-arm64@npm:2.0.15":
+  version: 2.0.15
+  resolution: "lefthook-linux-arm64@npm:2.0.15"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-linux-x64@npm:2.0.13":
-  version: 2.0.13
-  resolution: "lefthook-linux-x64@npm:2.0.13"
+"lefthook-linux-x64@npm:2.0.15":
+  version: 2.0.15
+  resolution: "lefthook-linux-x64@npm:2.0.15"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"lefthook-openbsd-arm64@npm:2.0.13":
-  version: 2.0.13
-  resolution: "lefthook-openbsd-arm64@npm:2.0.13"
+"lefthook-openbsd-arm64@npm:2.0.15":
+  version: 2.0.15
+  resolution: "lefthook-openbsd-arm64@npm:2.0.15"
   conditions: os=openbsd & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-openbsd-x64@npm:2.0.13":
-  version: 2.0.13
-  resolution: "lefthook-openbsd-x64@npm:2.0.13"
+"lefthook-openbsd-x64@npm:2.0.15":
+  version: 2.0.15
+  resolution: "lefthook-openbsd-x64@npm:2.0.15"
   conditions: os=openbsd & cpu=x64
   languageName: node
   linkType: hard
 
-"lefthook-windows-arm64@npm:2.0.13":
-  version: 2.0.13
-  resolution: "lefthook-windows-arm64@npm:2.0.13"
+"lefthook-windows-arm64@npm:2.0.15":
+  version: 2.0.15
+  resolution: "lefthook-windows-arm64@npm:2.0.15"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-windows-x64@npm:2.0.13":
-  version: 2.0.13
-  resolution: "lefthook-windows-x64@npm:2.0.13"
+"lefthook-windows-x64@npm:2.0.15":
+  version: 2.0.15
+  resolution: "lefthook-windows-x64@npm:2.0.15"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"lefthook@npm:2.0.13":
-  version: 2.0.13
-  resolution: "lefthook@npm:2.0.13"
+"lefthook@npm:2.0.15":
+  version: 2.0.15
+  resolution: "lefthook@npm:2.0.15"
   dependencies:
-    lefthook-darwin-arm64: "npm:2.0.13"
-    lefthook-darwin-x64: "npm:2.0.13"
-    lefthook-freebsd-arm64: "npm:2.0.13"
-    lefthook-freebsd-x64: "npm:2.0.13"
-    lefthook-linux-arm64: "npm:2.0.13"
-    lefthook-linux-x64: "npm:2.0.13"
-    lefthook-openbsd-arm64: "npm:2.0.13"
-    lefthook-openbsd-x64: "npm:2.0.13"
-    lefthook-windows-arm64: "npm:2.0.13"
-    lefthook-windows-x64: "npm:2.0.13"
+    lefthook-darwin-arm64: "npm:2.0.15"
+    lefthook-darwin-x64: "npm:2.0.15"
+    lefthook-freebsd-arm64: "npm:2.0.15"
+    lefthook-freebsd-x64: "npm:2.0.15"
+    lefthook-linux-arm64: "npm:2.0.15"
+    lefthook-linux-x64: "npm:2.0.15"
+    lefthook-openbsd-arm64: "npm:2.0.15"
+    lefthook-openbsd-x64: "npm:2.0.15"
+    lefthook-windows-arm64: "npm:2.0.15"
+    lefthook-windows-x64: "npm:2.0.15"
   dependenciesMeta:
     lefthook-darwin-arm64:
       optional: true
@@ -5836,7 +5836,7 @@ __metadata:
       optional: true
   bin:
     lefthook: bin/index.js
-  checksum: 10/b78663ef77611c9ba3ece167f817558183ce445cbaf57ca378a28618bc93b20e11d1cb3e070d207aeeffdbf2f97e69a6445d7e7b1d63e67bf84e331961a99c78
+  checksum: 10/e26c24285dc99c5dde14b9c9beb370251b29e0be8f402ae76a29f0356b3effc7b9bbd6e10a8154805539154506531c45737716bd9439d84cf6fcee2004566ff1
   languageName: node
   linkType: hard
 
@@ -7955,7 +7955,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-presets@workspace:."
   dependencies:
-    lefthook: "npm:2.0.13"
+    lefthook: "npm:2.0.15"
     renovate: "npm:42.78.2"
     standard-version: "npm:9.5.0"
   languageName: unknown
