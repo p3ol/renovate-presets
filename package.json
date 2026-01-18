@@ -6,7 +6,7 @@
     "node": "^22"
   },
   "devDependencies": {
-    "lefthook": "2.0.13",
+    "lefthook": "2.0.15",
     "renovate": "42.78.2",
     "standard-version": "9.5.0"
   },
