@@ -9,10 +9,10 @@
     "customType": "regex",
     "managerFilePatterns": ["^Dockerfile"],
     "matchStrings": [
-      "FROM (?<depName>[\\w\\-/]+):(?<currentValue>\\d+\\.\\d+\\.\\d+)-bullseye-slim"
+      "FROM (?<depName>[\\w\\-/]+):(?<currentValue>\\d+\\.\\d+\\.\\d+-[a-z]+-slim)"
     ],
     "datasourceTemplate": "docker",
-    "versioningTemplate": "semver"
+    "versioningTemplate": "docker"
   }],
   "packageRules": [{
     "matchManagers": ["github-actions", "dockerfile", "helm-values", "helmv3"],
