@@ -3,7 +3,7 @@
   "version": "2.2.3",
   "repository": "https://github.com/p3ol/renovate-presets.git",
   "engines": {
-    "node": "^22"
+    "node": "^24.0.0"
   },
   "devDependencies": {
     "lefthook": "2.1.0",
