@@ -1,6 +1,6 @@
 {
   "name": "renovate-presets",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "repository": "https://github.com/p3ol/renovate-presets.git",
   "engines": {
     "node": "^22"
