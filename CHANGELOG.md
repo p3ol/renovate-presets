@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.4](https://github.com/p3ol/renovate-presets/compare/v2.2.3...v2.2.4) (2026-03-27)
+
+
+### Bug Fixes
+
+* update node docker image debian major ([d566ed3](https://github.com/p3ol/renovate-presets/commit/d566ed3))
+
+
 ## [2.2.3](https://github.com/p3ol/renovate-presets/compare/v2.2.2...v2.2.3) (2026-01-08)
 
 
