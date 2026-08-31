@@ -8,7 +8,7 @@
   "devDependencies": {
     "lefthook": "2.1.12",
     "renovate": "42.99.0",
-    "standard-version": "9.5.0"
+    "commit-and-tag-version": "9.5.0"
   },
   "scripts": {
     "test": "renovate-config-validator presets/**/*.json renovate.json",
